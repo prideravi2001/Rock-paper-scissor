@@ -18,9 +18,9 @@ function getComputerChoice(){
 }
 // console.log(getComputerChoice());
 function convertToWord(letter){
-	if(letter === "rock") return "Rock";
-	if(letter === "paper") return "paper";
-	if(letter === "scissor") return "Scissor";
+	if(letter === "r" || letter === "rock") return "Rock";
+	if(letter === "p" || letter === "paper") return "paper";
+	if(letter === "scissor" || letter === "s") return "Scissor";
 }
 
 // Win Function
@@ -79,7 +79,7 @@ function game(userChoice){
 			lose(userChoice,computerChoice);
 			// console.log("Users Loses");
 			break;
-		case "rockr":
+		case "rock":
 		case "paperp":
 		case "scissors":
 			draw(userChoice,computerChoice);
