@@ -18,8 +18,8 @@ function getComputerChoice(){
 }
 // console.log(getComputerChoice());
 function convertToWord(letter){
-	if(letter === "r") return "Rock";
-	if(letter === "p") return "paper";
+	if(letter === "rock") return "Rock";
+	if(letter === "paper") return "paper";
 	if(letter === "scissor") return "Scissor";
 }
 
