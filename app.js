@@ -1,3 +1,11 @@
+/*
+	Name : Ravi Kant
+	College : CV Raman Global University
+	Stream : B-Tech(CSIT)
+	Email : ravikant4101707@gmail.com
+	LinkeIN : https://www.linkedin.com/in/ravi-2001/
+*/
+
 let userScore = 0;
 let computerScore = 0;
 const userScore_span = document.getElementById("user-score");
@@ -20,7 +28,7 @@ function getComputerChoice(){
 function convertToWord(letter){
 	if(letter === "r" || letter === "rock") return "Rock";
 	if(letter === "p" || letter === "paper") return "paper";
-	if(letter === "scissor" || letter === "s") return "Scissor";
+	if(letter === "s" || letter === "scissor") return "Scissor";
 }
 
 // Win Function
@@ -79,7 +87,7 @@ function game(userChoice){
 			lose(userChoice,computerChoice);
 			// console.log("Users Loses");
 			break;
-		case "rock":
+		case "rockr":
 		case "paperp":
 		case "scissors":
 			draw(userChoice,computerChoice);
